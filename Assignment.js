@@ -69,8 +69,8 @@ function tinyFriend(friend){
  
 
 }
-var minValue=tinyFriend(['Nil', 'nahid','taniaa','Hridoyy','Jannatt','nahidIslam']);
+var minName=tinyFriend(['Nil', 'nahid','taniaa','Hridoyy','Jannatt','nahidIslam']);
 
-console.log('Your Smallest word friend name : '+ minValue);
+console.log('Your Smallest word friend name : '+ minName);
 
 
