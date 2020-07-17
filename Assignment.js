@@ -4,7 +4,7 @@
 // feet to mile 
 function feetToMile(feet){
   if(feet<0){
-    console.log('Distance cannot be negative value, please input positive number')
+    console.log('Please input positive number, Distance can not be negative number');
   }
   else{
     var mile= feet/5280;
@@ -45,7 +45,7 @@ function brickCalculator(building){
     return topTwenty;
 
   }
-  else{
+  else if (building>20){
     var other=1000*10;
     return other;
 
@@ -59,7 +59,7 @@ console.log('you will need: ' + brickCount + ' bricks');
 function tinyFriend(friend){
  var minimum=friend[0];
  for(var i=0;i<friend.length; i++){
-   var name=friend[i]
+   var name=friend[i];
    if(name.length<minimum.length){
      minimum=name;
    }
@@ -69,7 +69,7 @@ function tinyFriend(friend){
  
 
 }
-var minValue=tinyFriend(['Niloyy', 'nahid','taniaa','Hridoyy','Jannatt','nahidIslam']);
+var minValue=tinyFriend(['Nil', 'nahid','taniaa','Hridoyy','Jannatt','nahidIslam']);
 
 console.log('Your Smallest word friend name : '+ minValue);
 
